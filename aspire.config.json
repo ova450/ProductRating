@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "ProductRating.AppHost/ProductRating.AppHost.csproj"
+  }
+}
