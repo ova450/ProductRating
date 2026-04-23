@@ -1,6 +1,7 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.8.0.0
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11716.218 insiders
 MinimumVisualStudioVersion = 17.8.0.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductRating.AppHost", "ProductRating.AppHost\ProductRating.AppHost.csproj", "{3B9EEB45-973A-46F0-87DD-43EE2534B829}"
 EndProject
@@ -11,6 +12,16 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductRating.Tests", "ProductRating.Tests\ProductRating.Tests.csproj", "{4269C001-4D31-4775-B9B9-A8CDF818609C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductRating.Web", "ProductRating.Web\ProductRating.Web.csproj", "{FA7CC780-B62D-465A-9F0A-DBEA518CDC71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppCore", "AppCore", "{C65DEADB-1523-4432-8B7C-01F051E50449}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2CC1C74C-704E-4481-A920-DCF4CFBCB48A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{7B7B0BAD-45A6-4F06-99C8-F7925FDC83FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CEC9880C-2BFA-4B34-AF60-D5BAEFB8F647}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6D0F1B0E-369C-4981-ADF4-EC4249A355CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +52,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CC1C74C-704E-4481-A920-DCF4CFBCB48A} = {C65DEADB-1523-4432-8B7C-01F051E50449}
+		{7B7B0BAD-45A6-4F06-99C8-F7925FDC83FA} = {2CC1C74C-704E-4481-A920-DCF4CFBCB48A}
+		{CEC9880C-2BFA-4B34-AF60-D5BAEFB8F647} = {2CC1C74C-704E-4481-A920-DCF4CFBCB48A}
+		{6D0F1B0E-369C-4981-ADF4-EC4249A355CF} = {7B7B0BAD-45A6-4F06-99C8-F7925FDC83FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0FB19B8-3271-41D6-A91C-C6CF25BDD80B}
